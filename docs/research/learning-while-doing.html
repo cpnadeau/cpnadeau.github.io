@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-08a9554b63bcc41a2fb82f8a4b7cdf8a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-433c1660ed00292549858673154c6dac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -216,17 +216,58 @@ ul.task-list li input[type="checkbox"] {
     var count = box.querySelector(".filter-count");
     var rows = box.querySelectorAll(".chip-row");
     var chosen = {};
+    // On phones the filter buttons fold away behind one "Filter" button (see .filter-toggle in custom.scss).
+    var panel = document.createElement("div");
+    panel.className = "filter-panel";
+    panel.id = box.dataset.filterList + "-filter-panel";
+    rows[0].parentNode.insertBefore(panel, rows[0]);
+    rows.forEach(function (row) { panel.appendChild(row); });
+    var toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "filter-toggle";
+    toggle.setAttribute("aria-controls", panel.id);
+    toggle.setAttribute("aria-expanded", "false");
+    box.insertBefore(toggle, panel);
+    toggle.addEventListener("click", function () {
+      var open = box.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    // News: with no filter chosen, show only the newest year until "Show all years" is pressed.
+    var latest = box.dataset.latest;
+    var showAll = !latest;
+    var moreBtn = document.querySelector('[data-show-all="' + box.dataset.filterList + '"]');
+    if (moreBtn) {
+      moreBtn.hidden = false;
+      moreBtn.addEventListener("click", function () {
+        showAll = !showAll;
+        apply();
+      });
+    }
     function apply() {
       var shown = 0;
+      var active = Object.keys(chosen).filter(function (key) { return chosen[key] !== "all"; }).length;
+      var filtering = active > 0;
+      toggle.textContent = active ? "Filter (" + active + " on)" : "Filter";
+      var latestOnly = !showAll && !filtering;
       items.forEach(function (it) {
         var ok = Object.keys(chosen).every(function (key) {
           var want = chosen[key];
           return want === "all" || (it.dataset[key] || "").split(" ").indexOf(want) !== -1;
         });
+        if (ok && latestOnly) ok = it.dataset.year === latest;
         it.hidden = !ok;
         if (ok) shown++;
       });
-      if (count) count.textContent = "Showing " + shown + " of " + items.length;
+      if (count) {
+        count.textContent = latestOnly
+          ? "Showing " + latest + ": " + shown + " of " + items.length
+          : "Showing " + shown + " of " + items.length;
+      }
+      if (moreBtn) {
+        moreBtn.hidden = filtering;
+        moreBtn.textContent = showAll ? "Show " + latest + " only" : "Show all " + items.length + " items";
+        moreBtn.setAttribute("aria-expanded", showAll ? "true" : "false");
+      }
     }
     rows.forEach(function (row) {
       var key = row.dataset.filterKey;
@@ -242,6 +283,7 @@ ul.task-list li input[type="checkbox"] {
         apply();
       });
     });
+    apply();
   });
 
   if (/\/research\//.test(location.pathname)) {

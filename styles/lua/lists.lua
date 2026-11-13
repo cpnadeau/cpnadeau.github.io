@@ -19,9 +19,24 @@ local PUB_TOPICS = {
   { "birds", "Birds" },
   { "quant", "Quantitative methods" },
 }
-local NEWS_KINDS = {
-  { "media", "In the news" },
-  { "update", "Update" },
+local NEWS_FORMATS = {
+  { "news", "News articles" },
+  { "magazine", "Magazines" },
+  { "web", "Web articles" },
+  { "video", "Videos" },
+  { "podcast", "Podcasts" },
+  { "update", "Project updates" },
+}
+local NEWS_FORMAT_TAGS = {
+  news = "News", magazine = "Magazine", web = "Web article",
+  video = "Video", podcast = "Podcast", update = "Update",
+}
+local NEWS_TOPICS = {
+  { "summits", "Mountain summits" },
+  { "wetlands", "Wetlands" },
+  { "invasives", "Invasive plants" },
+  { "refugia", "Climate refugia" },
+  { "adaptation", "Climate change adaptation" },
 }
 
 local function label_of(list, key)
@@ -97,23 +112,32 @@ return {
 
   ["news-list"] = function()
     local items = by_year(photos.read_yaml_list("data/news.yml"))
-    local html = { '<div class="filters" data-filter-list="news">' }
-    html[#html + 1] = chips("kind", nil, "All", NEWS_KINDS)
+    local latest = items[1] and tonumber(items[1].year) or ""
+    -- data-latest: the page script first shows only the newest year, with a "Show all" button.
+    local html = { '<div class="filters" data-filter-list="news" data-latest="' .. latest .. '">' }
+    html[#html + 1] = chips("format", "Format", "All", NEWS_FORMATS)
+    html[#html + 1] = chips("topic", "Topic", "All topics", NEWS_TOPICS)
     html[#html + 1] = '<p class="filter-count" aria-live="polite">Showing ' .. #items .. " of " .. #items .. "</p></div>"
     html[#html + 1] = '<div class="row-list" id="news">'
     for _, n in ipairs(items) do
-      local kind = n.kind == "media" and "media" or "update"
+      local format = NEWS_FORMAT_TAGS[n.format] and n.format or "news"
+      if not NEWS_FORMAT_TAGS[n.format] then
+        quarto.log.warning("news.yml: \"" .. (n.title or "?") .. "\" has no valid format")
+      end
+      local tags = type(n.tags) == "table" and n.tags or {}
       local title = esc(n.title)
       if is_link(n.url) then title = '<a href="' .. esc(n.url) .. '">' .. title .. "</a>" end
-      html[#html + 1] = '<article class="row-item" data-kind="' .. kind .. '">'
+      html[#html + 1] = '<article class="row-item" data-year="' .. esc(n.year) .. '" data-format="' .. format
+        .. '" data-topic="' .. esc(table.concat(tags, " ")) .. '">'
         .. year_cell(n.year)
         .. '<div class="row-body">'
-        .. '<p class="news-meta"><span class="tag tag-' .. kind .. '">' .. esc(label_of(NEWS_KINDS, kind)) .. "</span>"
+        .. '<p class="news-meta"><span class="tag tag-' .. format .. '">' .. esc(NEWS_FORMAT_TAGS[format]) .. "</span>"
         .. '<span class="news-source">' .. esc(n.source) .. "</span></p>"
         .. '<h2 class="news-headline">' .. title .. "</h2>"
         .. "</div></article>"
     end
     html[#html + 1] = "</div>"
+    html[#html + 1] = '<p class="show-all-row"><button type="button" class="button show-all" data-show-all="news" hidden>Show all years</button></p>'
     return pandoc.RawBlock("html", table.concat(html, "\n"))
   end,
 

@@ -15,7 +15,7 @@ description: "Publications by Chris Nadeau: climate change adaptation, restorati
 # Publications
 
 ::: intro
-From marsh bird surveys to climate adaptation experiments. † marks a mentee or supervised staff member. Full list also on Google Scholar [URL] and [ORCID](https://orcid.org/0000-0002-3568-0793).
+From marsh bird surveys to climate adaptation experiments. † marks a mentee or supervised staff member. Full list also on [Google Scholar](https://scholar.google.com/citations?user=ZDM7wgYAAAAJ&hl=en) and [ORCID](https://orcid.org/0000-0002-3568-0793).
 :::
 
 {{< publication-list >}}

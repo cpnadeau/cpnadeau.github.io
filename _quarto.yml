@@ -39,13 +39,12 @@ website:
   page-footer:
     left: "Chris Nadeau, PhD"
     right:
-      # Fill in each [placeholder]: add an href line under it with the address
-      # (for email use  href: "mailto:you@example.org")
-      - text: "Email [address to confirm]"
-      - text: "Google Scholar [URL needed]"
+      - text: "Email"
+        href: "mailto:cnadeau@schoodicinstitute.org"
+      - text: "Google Scholar"
+        href: "https://scholar.google.com/citations?user=ZDM7wgYAAAAJ&hl=en"
       - text: "ORCID"
         href: "https://orcid.org/0000-0002-3568-0793"
-      - text: "GitHub [URL]"
       - text: "Photo Credits"
         href: photo-credits.qmd
 

@@ -81,17 +81,19 @@ Senior Scientist at Acadia National Park, putting science into action on summits
 
 Much of this work is done by early-career scientists: research associates, fellows, field technicians, and interns. Former mentees have gone on to graduate programs, an NSF Graduate Research Fellowship, and careers with the National Park Service, U.S. Fish and Wildlife Service, and U.S. Geological Survey.
 
-[One or two sentences on your mentoring approach.]
-:::
+<!-- Removed until ready (2026-11-13). To bring back, add a sentence here on your
+     mentoring approach, and paste this box above the last ::: line of this section:
 
 ::: join
 [Join us]{.eyebrow}
 
-[Current openings, e.g., a postdoc position]
+Current openings, e.g., a postdoc position
 
 Positions are posted on the Schoodic Institute jobs page. If you're interested in working together, reach out.
 
-See Openings [URL] →
+[See Openings →](https://LINK-TO-OPENINGS)
+:::
+-->
 :::
 :::
 
@@ -103,6 +105,6 @@ For collaborations, speaking invitations, or media requests.
 :::
 
 ::: buttons
-[Email [address to confirm]]{.button .todo} [ORCID](https://orcid.org/0000-0002-3568-0793){.button .outline} [Google Scholar [URL needed]]{.button .outline .todo} [GitHub [URL]]{.button .outline .todo}
+[Email](mailto:cnadeau@schoodicinstitute.org){.button} [ORCID](https://orcid.org/0000-0002-3568-0793){.button .outline} [Google Scholar](https://scholar.google.com/citations?user=ZDM7wgYAAAAJ&hl=en){.button .outline}
 :::
 :::

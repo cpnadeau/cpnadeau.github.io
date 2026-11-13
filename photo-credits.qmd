@@ -1,0 +1,20 @@
+---
+pagetitle: "Photo credits"
+description: "Credits and licenses for every photo on this site."
+---
+
+<!--
+  PHOTO CREDITS
+  The table is built from photo_credits.csv (every row with status "selected").
+  To fix a credit, edit the CSV, not this page.
+-->
+
+::: {.page-body .credits-page}
+# Photo credits
+
+::: intro
+Every photo on this site, who took it, and how it may be used. Photos from Wikimedia Commons are used under the Creative Commons license shown and were cropped and resized for the web.
+:::
+
+{{< photo-credits-table >}}
+:::

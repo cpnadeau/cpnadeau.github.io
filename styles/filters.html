@@ -1,0 +1,52 @@
+<script>
+// Filter buttons on the Publications and News pages, and the "Research" menu
+// highlight on the research pages. Text and data live in the .qmd and .yml files.
+(function () {
+  document.querySelectorAll("[data-filter-list]").forEach(function (box) {
+    var list = document.getElementById(box.dataset.filterList);
+    if (!list) return;
+    var items = list.querySelectorAll(".row-item");
+    var count = box.querySelector(".filter-count");
+    var rows = box.querySelectorAll(".chip-row");
+    var chosen = {};
+    function apply() {
+      var shown = 0;
+      items.forEach(function (it) {
+        var ok = Object.keys(chosen).every(function (key) {
+          var want = chosen[key];
+          return want === "all" || (it.dataset[key] || "").split(" ").indexOf(want) !== -1;
+        });
+        it.hidden = !ok;
+        if (ok) shown++;
+      });
+      if (count) count.textContent = "Showing " + shown + " of " + items.length;
+    }
+    rows.forEach(function (row) {
+      var key = row.dataset.filterKey;
+      chosen[key] = "all";
+      row.hidden = false;
+      row.addEventListener("click", function (e) {
+        var btn = e.target.closest(".chip");
+        if (!btn) return;
+        chosen[key] = btn.dataset.value;
+        row.querySelectorAll(".chip").forEach(function (b) {
+          b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+        });
+        apply();
+      });
+    });
+  });
+
+  if (/\/research\//.test(location.pathname)) {
+    var menu = document.getElementById("nav-menu-research");
+    if (menu) menu.classList.add("active");
+    var page = location.pathname.split("/").pop() || "index.html";
+    document.querySelectorAll(".navbar .dropdown-item").forEach(function (a) {
+      if ((a.getAttribute("href") || "").split("/").pop() === page) {
+        a.classList.add("active");
+        a.setAttribute("aria-current", "page");
+      }
+    });
+  }
+})();
+</script>

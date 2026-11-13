@@ -1,0 +1,18 @@
+# Full-size photo originals (web copies in images/ are committed instead)
+website_photos/
+
+# RStudio, Quarto, and Claude working files
+.Rproj.user/
+.Rhistory
+.quarto/
+**/*.quarto_ipynb
+.claude/
+
+# macOS
+.DS_Store
+
+/.quarto/
+
+# Working notes kept private (Chris's choice, 2026-11-13)
+CLAUDE.md
+SITE_PLAN.md

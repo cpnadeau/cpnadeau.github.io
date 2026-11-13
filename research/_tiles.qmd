@@ -1,0 +1,42 @@
+<!--
+  The three research tiles. Shown on the homepage and on the Research page.
+  Each tile: photo, number, title (links to the theme page), question + sentence, "Explore →".
+-->
+
+::: tiles
+::: tile
+![Researcher checking an acoustic recorder in a wetland](/images/IMG_4443.jpg)
+
+[01]{.tile-num}
+
+### [Tracking Change](/research/tracking-change.qmd){.stretched-link}
+
+**What's changing, and why?** We use decades-old surveys and new technology to find out.
+
+[Explore →]{.explore}
+:::
+
+::: tile
+![Labeled seedling trays on a summit with forested hills behind](/images/20210527_165006.jpg)
+
+[02]{.tile-num}
+
+### [Testing Solutions](/research/testing-solutions.qmd){.stretched-link}
+
+**Which climate change adaptation strategies actually work?** We test them first with small-scale experiments.
+
+[Explore →]{.explore}
+:::
+
+::: tile
+![Summit restoration plot outlined with stones](/images/1d5929a1-ede1-4823-9c3f-73071e5592c5.jpg)
+
+[03]{.tile-num}
+
+### [Learning While Doing](/research/learning-while-doing.qmd){.stretched-link}
+
+**How do we put answers to work?** We build experiments into restoration on Acadia's summits and wetlands, learning as we go.
+
+[Explore →]{.explore}
+:::
+:::

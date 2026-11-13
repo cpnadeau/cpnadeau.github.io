@@ -1,0 +1,100 @@
+---
+pagetitle: "Curriculum vitae"
+description: "Curriculum vitae of Chris Nadeau, Senior Scientist at Schoodic Institute at Acadia National Park."
+---
+
+<!--
+  CV
+  Everything below is plain text. Each CV row is written as:
+
+  2022 – present
+  : Senior Scientist, Schoodic Institute at Acadia National Park
+
+  (the date on one line, then a line starting with ": " for the entry).
+  The PDF button links to files/Nadeau_CV.pdf; replace that file to update it.
+-->
+
+::: {.page-body .cv-page}
+
+::: page-head
+::: page-head-text
+# Curriculum vitae
+
+Senior Scientist at Schoodic Institute at Acadia National Park. Restoration and quantitative ecology, and climate change adaptation.
+:::
+
+[Download full CV (PDF)](/files/Nadeau_CV.pdf){.button}
+:::
+
+::: stats
+- **30** Peer-reviewed papers
+- **50+** News stories, podcasts, and videos
+- **23** Research staff and interns mentored at Schoodic Institute
+- **$3.4M** Research funding (PI on $1.8M)
+:::
+
+## Appointments
+
+2022 – present
+: Senior Scientist, Schoodic Institute at Acadia National Park
+
+2022
+: NSF Postdoctoral Research Fellow in Biology, Northeastern University
+
+2020 – 2022
+: David H. Smith Conservation Research Fellow, Northeastern University
+
+2002 – 2011
+: Wildlife Biologist, Arizona Cooperative Fish and Wildlife Research Unit, University of Arizona
+
+## Education
+
+2020
+: Ph.D., Ecology and Evolutionary Biology, University of Connecticut
+
+2014
+: M.S., Natural Resources, Cornell University
+
+2009
+: B.S., Natural Resources, University of Arizona
+
+## Selected grants
+
+2027 – 2029
+: Restoring imperiled species populations on heavily visited summits in Acadia National Park. National Park Service. PI
+
+2026 – 2029
+: Improving the management of invasive woody plants and enhancing ecosystem resilience in the NE CASC region. USGS Northeast Climate Adaptation Science Center. PI
+
+2026 – 2028
+: A scalable framework for proactive park management and improved visitor experience in Acadia National Park. National Park Foundation. Co-PI
+
+2026 – 2029
+: Assessing vegetative changes on Acadia's mountain summits to inform future restoration. National Park Service. PI
+
+## Honors and fellowships
+
+2026
+: Acadia Team Award, National Park Service
+
+2022
+: NSF Postdoctoral Research Fellowship in Biology
+
+2020
+: David H. Smith Conservation Research Fellowship
+
+2019
+: E4 Award Finalist, Ecography
+
+2014
+: NSF Graduate Research Fellowship
+
+## Service
+
+2023 – present
+: Conservation Programs Committee, Friends of Acadia Board of Directors
+
+Ongoing
+: Peer reviewer for 14 journals, including Global Change Biology, Ecography, and Biological Conservation
+
+:::

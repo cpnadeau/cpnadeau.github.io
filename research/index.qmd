@@ -1,0 +1,14 @@
+---
+pagetitle: "Research"
+---
+
+::: {.research .wrap}
+::: section-head
+# Research
+
+:::
+
+We track what's changing, test solutions at small scale, then build experiments into management.
+
+{{< include _tiles.qmd >}}
+:::

@@ -1,0 +1,130 @@
+# News items for the News page and homepage cards. kind: update | media.
+# url "#" means the link still needs to be added.
+# Homepage cards: give up to three items "featured: 1", "featured: 2", "featured: 3" (that order).
+#   photo: a web copy in images/ (it must have a row in photo_credits.csv); alt: describes the photo.
+#   tag: optional label that replaces "Update" / "In the news" on the card.
+- kind: update
+  year: 2026
+  title: "NPS Acadia Team Award"
+  source: "National Park Service"
+  url: "#"
+- kind: update
+  year: 2026
+  title: "New paper: putting climate-change refugia to work in national parks"
+  source: "Conservation Science and Practice"
+  url: "https://doi.org/10.1111/csp2.70159"
+  featured: 2
+  tag: "New paper"
+  photo: images/IMG_4119.jpg
+  alt: "Crew planting on a summit"
+- kind: update
+  year: 2026
+  title: "New grant: improving invasive woody plant management across the Northeast"
+  source: "Northeast Climate Adaptation Science Center"
+  url: "#"
+- kind: update
+  year: 2026
+  title: "Great Meadow StoryMap launches, with live data dashboards"
+  source: "Schoodic Institute"
+  url: "https://storymaps.arcgis.com/stories/842df6be0b644b33a6d42e8b895004c9"
+- kind: media
+  year: 2026
+  title: "New tech could tell Acadia visitors about wait times and congestion"
+  source: "Portland Press Herald"
+  url: "#"
+- kind: media
+  year: 2026
+  title: "Acadia tackles climate change with its largest restoration project"
+  source: "Bangor Daily News"
+  url: "#"
+  featured: 1
+  photo: images/IMG_4601.jpg
+  alt: "Seedlings growing through erosion control fabric"
+- kind: media
+  year: 2026
+  title: "Where are the songbirds? As climate shifts, Acadia’s forests are getting quieter"
+  source: "Portland Press Herald"
+  url: "#"
+  featured: 3
+  photo: images/IMG_5422.jpg
+  alt: "Drone flying over spruce trees"
+- kind: media
+  year: 2026
+  title: "Climate refugia research helping Acadia National Park prepare for the future"
+  source: "National Parks Traveler"
+  url: "#"
+- kind: media
+  year: 2026
+  title: "A few reasons to feel hopeful about the climate in 2026"
+  source: "The Conversation"
+  url: "#"
+- kind: update
+  year: 2025
+  title: "New paper: soil is critical for summit restoration"
+  source: "Applied Vegetation Science"
+  url: "https://doi.org/10.1111/avsc.70034"
+- kind: media
+  year: 2025
+  title: "Where the wild things thrive: finding and protecting nature’s climate change safe havens"
+  source: "The Conversation"
+  url: "#"
+- kind: media
+  year: 2025
+  title: "Climate refugia: a buffer to climate change (video)"
+  source: "USGS Northeast Climate Adaptation Science Center"
+  url: "#"
+- kind: media
+  year: 2025
+  title: "Save Our Summits program gets creative to help fight soil erosion"
+  source: "Mount Desert Islander"
+  url: "#"
+- kind: media
+  year: 2025
+  title: "Generating the science behind climate adaptation with the Schoodic Institute (podcast)"
+  source: "America Adapts"
+  url: "#"
+- kind: media
+  year: 2024
+  title: "Acadia National Park as a laboratory for climate change"
+  source: "Sierra"
+  url: "#"
+- kind: media
+  year: 2024
+  title: "America’s national parks remain a beacon in an era of climate change"
+  source: "New Lines Magazine"
+  url: "#"
+- kind: media
+  year: 2024
+  title: "Acadia tackles mountaintop soil erosion with the help of hikers"
+  source: "Maine Public"
+  url: "#"
+- kind: media
+  year: 2024
+  title: "The dirt on Acadia"
+  source: "National Parks Conservation Association"
+  url: "#"
+- kind: media
+  year: 2023
+  title: "Saving Maine’s iconic peaks, one pound of soil at a time"
+  source: "Grist"
+  url: "#"
+- kind: media
+  year: 2023
+  title: "Save Our Summits (video)"
+  source: "Maine Public, Borealis"
+  url: "#"
+- kind: media
+  year: 2023
+  title: "Sea to Trees podcast, season 2, episodes 1 and 3"
+  source: "National Park Service"
+  url: "#"
+- kind: media
+  year: 2022
+  title: "Forget the views: scientists say Cadillac Mountain is a prime spot for studying climate change"
+  source: "Maine Public"
+  url: "#"
+- kind: media
+  year: 2018
+  title: "Researcher uses freshwater puddles to study climate change"
+  source: "National Park Service"
+  url: "#"

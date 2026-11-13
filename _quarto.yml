@@ -1,0 +1,74 @@
+project:
+  type: website
+  output-dir: docs
+  # Photo originals are not part of the site
+  render:
+    - "*.qmd"
+    - "!website_photos/"
+  # Copied into docs/ on every render so GitHub Pages serves the files as-is
+  resources:
+    - ".nojekyll"
+
+website:
+  title: "Chris Nadeau"
+  site-url: "https://cpnadeau.github.io"
+  description: "Climate change adaptation, restoration, and quantitative ecology at Acadia National Park."
+  search: false
+  navbar:
+    title: "Chris Nadeau"
+    right:
+      - text: "About"
+        href: about.qmd
+      # Research opens a menu. Each line under "menu:" is one item.
+      - text: "Research"
+        menu:
+          - text: "All Research"
+            href: research/index.qmd
+          - text: "Tracking Change"
+            href: research/tracking-change.qmd
+          - text: "Testing Solutions"
+            href: research/testing-solutions.qmd
+          - text: "Learning While Doing"
+            href: research/learning-while-doing.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "CV"
+        href: cv.qmd
+  page-footer:
+    left: "Chris Nadeau, PhD"
+    right:
+      # Fill in each [placeholder]: add an href line under it with the address
+      # (for email use  href: "mailto:you@example.org")
+      - text: "Email [address to confirm]"
+      - text: "Google Scholar [URL needed]"
+      - text: "ORCID"
+        href: "https://orcid.org/0000-0002-3568-0793"
+      - text: "GitHub [URL]"
+      - text: "Photo Credits"
+        href: photo-credits.qmd
+
+format:
+  html:
+    theme: [default, styles/custom.scss]
+    page-layout: custom
+    title-block-style: none
+    toc: false
+    section-divs: false
+    anchor-sections: false
+    # An image on its own line stays a plain photo (no automatic caption)
+    from: markdown-implicit_figures
+    lang: en
+    # Filter buttons (Publications, News) and the Research menu highlight
+    include-after-body: styles/filters.html
+
+# layout.lua: side-by-side project blocks on the research pages
+# photo-credits.lua: adds the credit from photo_credits.csv to every photo
+filters:
+  - styles/lua/layout.lua
+  - styles/lua/photo-credits.lua
+
+shortcodes:
+  - styles/lua/news-cards.lua
+  - styles/lua/lists.lua

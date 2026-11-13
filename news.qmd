@@ -1,0 +1,21 @@
+---
+pagetitle: "News"
+description: "Project updates, and Chris Nadeau's research in the news."
+---
+
+<!--
+  NEWS
+  The intro below is plain text you can edit.
+  The list comes from data/news.yml. A story whose url is "#" shows without a link
+  until you add its address.
+-->
+
+::: {.page-body .list-page}
+# News
+
+::: intro
+Project updates, and our research in more than 50 news stories, magazine articles, podcasts, and videos since 2017.
+:::
+
+{{< news-list >}}
+:::

@@ -1,0 +1,308 @@
+# Publications for the Publications page. Generated from the November 2026 CV.
+# type: peer | review | other   tags: climate | restoration | birds | quant
+# A dagger (†) marks a mentee or supervised staff member.
+- type: peer
+  year: "2026"
+  title: "Toward a coordinated snow monitoring network in the northeastern United States"
+  authors: "Sullivan, F. B., E. Burakowski, S. J. Nelson, … C. P. Nadeau, … V. Watson†, A. Wilson†, M. Webb, and L. Zukiewicz"
+  venue: "Glacies 3: 14"
+  url: "https://doi.org/10.3390/glacies3040014"
+  tags: [climate]
+- type: peer
+  year: "2026"
+  title: "From models to management: implementing the climate-change refugia conservation cycle in national parks of the northeastern United States"
+  authors: "Nadeau, C. P., J. R. Smetzer, S. Wisner, K. A. Lima†, A. R. Hughes, A. J. Miller-Rushing, J. S. Wheeler, T. L. Morelli, and T. G. Mozelewski"
+  venue: "Conservation Science and Practice 8: e70159"
+  url: "https://doi.org/10.1111/csp2.70159"
+  tags: [climate]
+- type: peer
+  year: "2026"
+  title: "Conserving climate-change refugia: insights from research and practice"
+  authors: "Morelli, T. L., T. Mozelewski, … C. P. Nadeau, … and D. Stralberg"
+  venue: "Conservation Science and Practice 8: e70160"
+  url: "https://doi.org/10.1111/csp2.70160"
+  tags: [climate]
+- type: peer
+  year: "2025"
+  title: "Soil as a critical component of vegetation restoration on a sub-alpine mountain summit in Acadia National Park"
+  authors: "Lima, K. A.†, P. R. Nelson, C. P. Nadeau, W. E. Brumback, J. E. Weber, A. J. Miller-Rushing, J. S. Wheeler, and N. A. Fisichelli"
+  venue: "Applied Vegetation Science 28: e70034"
+  url: "https://doi.org/10.1111/avsc.70034"
+  tags: [restoration]
+- type: peer
+  year: "2024"
+  title: "Incorporating experiments into management to facilitate rapid learning about climate change adaptation"
+  authors: "Nadeau, C. P., A. R. Hughes, E. Schneider, P. Colarusso, N. A. Fisichelli, and A. J. Miller-Rushing"
+  venue: "Biological Conservation 289: 110374"
+  url: "https://doi.org/10.1016/j.biocon.2023.110374"
+  tags: [climate, restoration]
+  note: "Invited, special issue on adapting to climate change"
+- type: peer
+  year: "2024"
+  title: "Macroecological predictors of evolutionary and plastic potential do not apply at microgeographic scales for a freshwater cladoceran under climate change"
+  authors: "Nadeau, C. P., and M. C. Urban"
+  venue: "Evolution Letters 8: 43–55"
+  url: "https://doi.org/10.1093/evlett/qrad042"
+  tags: [climate]
+  note: "Invited, special issue on evolution and climate change"
+- type: peer
+  year: "2024"
+  title: "Experimental changes in food and ectoparasites affect dispersal timing in juvenile burrowing owls"
+  authors: "Garcia, V., C. J. Conway, and C. P. Nadeau"
+  venue: "PLOS ONE 19: e0306660"
+  url: "https://doi.org/10.1371/journal.pone.0306660"
+  tags: [birds]
+- type: peer
+  year: "2023"
+  title: "Science and public engagement in national parks: examples and advice from young scientists"
+  authors: "Booker, J., C. P. Nadeau, S. Saiyed, and T. Watkins"
+  venue: "Bulletin of the Ecological Society of America 104: e02045"
+  url: "https://doi.org/10.1002/bes2.2045"
+  tags: []
+- type: peer
+  year: "2023"
+  title: "Using mechanistic insights to predict the climate-induced expansion of a key aquatic predator"
+  authors: "Urban, M. C., C. P. Nadeau, and S. T. Giery"
+  venue: "Ecological Monographs 93: e1575"
+  url: "https://doi.org/10.1002/ecm.1575"
+  tags: [climate, quant]
+- type: peer
+  year: "2022"
+  title: "An eco-evolutionary perspective on the Humpty-Dumpty effect and community restoration"
+  authors: "Evans, A. E., M. Zimova, S. T. Giery, H. E. Golden, A. L. Pastore†, C. P. Nadeau, and M. C. Urban"
+  venue: "Oikos 2022: e08978"
+  url: "https://doi.org/10.1111/oik.08978"
+  tags: [restoration]
+- type: peer
+  year: "2022"
+  title: "Cool microrefugia accumulate and conserve biodiversity under climate change"
+  authors: "Nadeau, C. P., A. Giacomazzo†, and M. C. Urban"
+  venue: "Global Change Biology 28: 3222–3235"
+  url: "https://doi.org/10.1111/gcb.16143"
+  tags: [climate]
+- type: peer
+  year: "2021"
+  title: "Adaptation reduces competitive dominance and alters community assembly"
+  authors: "Nadeau, C. P., T. E. Farkas, A. M. Makkay, R. T. Papke, and M. C. Urban"
+  venue: "Proceedings of the Royal Society B 288: 20203133"
+  url: "https://doi.org/10.1098/rspb.2020.3133"
+  tags: []
+- type: peer
+  year: "2020"
+  title: "Broadcasting regional call dialects has little influence on the effectiveness of call-broadcast surveys for marsh birds"
+  authors: "Conway, C. J., C. P. Nadeau, and M. Conway†"
+  venue: "Wetlands 40: 2055–2059"
+  url: "https://doi.org/10.1007/s13157-020-01367-5"
+  tags: [birds, quant]
+- type: peer
+  year: "2020"
+  title: "Multi-species occupancy models as robust estimators of community richness"
+  authors: "Tingley, M. W., C. P. Nadeau, and M. E. Sandor"
+  venue: "Methods in Ecology and Evolution 11: 633–642"
+  url: "https://doi.org/10.1111/2041-210X.13378"
+  tags: [quant]
+- type: peer
+  year: "2019"
+  title: "Eco-evolution on the edge during climate change"
+  authors: "Nadeau, C. P., and M. C. Urban"
+  venue: "Ecography 42: 1280–1297"
+  url: "https://doi.org/10.1111/ecog.04404"
+  tags: [climate]
+  note: "Finalist, E4 Award"
+- type: peer
+  year: "2017"
+  title: "Climates past, present, and yet-to-come shape climate change vulnerabilities"
+  authors: "Nadeau, C. P., M. C. Urban, and J. R. Bridle"
+  venue: "Trends in Ecology and Evolution 32: 786–799"
+  url: "https://doi.org/10.1016/j.tree.2017.07.012"
+  tags: [climate]
+- type: peer
+  year: "2017"
+  title: "Coarse climate change projections for species living in a fine-scaled world"
+  authors: "Nadeau, C. P., M. C. Urban, and J. R. Bridle"
+  venue: "Global Change Biology 23: 12–24"
+  url: "https://doi.org/10.1111/gcb.13475"
+  tags: [climate, quant]
+- type: peer
+  year: "2017"
+  title: "Habitat models to predict wetland bird occupancy influenced by scale, anthropogenic disturbance, and imperfect detection"
+  authors: "Glisson, W. J., C. J. Conway, C. P. Nadeau, and K. L. Borgmann"
+  venue: "Ecosphere 8: e01837"
+  url: "https://doi.org/10.1002/ecs2.1837"
+  tags: [birds, quant]
+- type: peer
+  year: "2016"
+  title: "Combining landscape variables and species traits can improve the utility of climate change vulnerability assessments"
+  authors: "Nadeau, C. P., and A. K. Fuller"
+  venue: "Biological Conservation 202: 30–38"
+  url: "https://doi.org/10.1016/j.biocon.2016.07.030"
+  tags: [climate]
+- type: peer
+  year: "2015"
+  title: "Depth of artificial burrowing owl burrows affects thermal suitability and occupancy"
+  authors: "Nadeau, C. P., N. Rathbun†, and C. J. Conway"
+  venue: "Journal of Field Ornithology 86: 288–297"
+  url: "https://doi.org/10.1111/jofo.12119"
+  tags: [birds]
+- type: peer
+  year: "2015"
+  title: "Climate-smart management of biodiversity"
+  authors: "Nadeau, C. P., and A. K. Fuller"
+  venue: "Ecosphere 6: 91"
+  url: "https://doi.org/10.1890/ES15-00069.1"
+  tags: [climate]
+- type: peer
+  year: "2015"
+  title: "Accounting for multiple climate components when estimating climate change exposure and velocity"
+  authors: "Nadeau, C. P., and A. K. Fuller"
+  venue: "Methods in Ecology and Evolution 6: 697–705"
+  url: "https://doi.org/10.1111/2041-210X.12360"
+  tags: [climate, quant]
+  note: "Selected for republication in a biogeography special issue"
+- type: peer
+  year: "2015"
+  title: "Range-wide wetland associations of the king rail: a multi-scale approach"
+  authors: "Glisson, W. J., C. J. Conway, C. P. Nadeau, and K. L. Borgmann"
+  venue: "Wetlands 35: 577–587"
+  url: "https://doi.org/10.1007/s13157-015-0648-0"
+  tags: [birds]
+- type: peer
+  year: "2015"
+  title: "Optimizing water depth for wetland-dependent wildlife could increase wetland restoration success, water efficiency, and water security"
+  authors: "Nadeau, C. P., and C. J. Conway"
+  venue: "Restoration Ecology 23: 292–300"
+  url: "https://doi.org/10.1111/rec.12180"
+  tags: [restoration, birds]
+- type: peer
+  year: "2013"
+  title: "Multi-species call-broadcast improved detection of endangered Yuma clapper rail compared to single-species call-broadcast"
+  authors: "Nadeau, C. P., C. J. Conway, L. Piest, and B. Burger"
+  venue: "Wetlands 33: 699–706"
+  url: "https://doi.org/10.1007/s13157-013-0425-x"
+  tags: [birds, quant]
+- type: peer
+  year: "2012"
+  title: "Intraspecific variation in reproductive traits of burrowing owls"
+  authors: "Conway, M. A.†, C. P. Nadeau, and C. J. Conway"
+  venue: "Journal of Ethology 30: 395–402"
+  url: "https://doi.org/10.1007/s10164-012-0337-x"
+  tags: [birds]
+- type: peer
+  year: "2012"
+  title: "Field evaluation of distance-estimation error during wetland-dependent bird surveys"
+  authors: "Nadeau, C. P., and C. J. Conway"
+  venue: "Wildlife Research 39: 311–320"
+  url: "https://doi.org/10.1071/WR11161"
+  tags: [birds, quant]
+- type: peer
+  year: "2010"
+  title: "Effects of broadcasting conspecific and heterospecific calls on detection of marsh birds in North America"
+  authors: "Conway, C. J., and C. P. Nadeau"
+  venue: "Wetlands 30: 358–368"
+  url: "https://doi.org/10.1007/s13157-010-0030-1"
+  tags: [birds, quant]
+- type: peer
+  year: "2010"
+  title: "Fire helps restore natural disturbance regime to benefit rare and endangered marsh birds endemic to Colorado River"
+  authors: "Conway, C. J., C. P. Nadeau, and L. Piest"
+  venue: "Ecological Applications 20: 2024–2035"
+  url: "https://doi.org/10.1890/09-1624.1"
+  tags: [birds, restoration]
+- type: peer
+  year: "2008"
+  title: "Maximizing detection probability of wetland-dependent birds during point-count surveys in northwestern Florida"
+  authors: "Nadeau, C. P., C. J. Conway, B. S. Smith†, and T. E. Lewis"
+  venue: "Wilson Journal of Ornithology 120: 513–518"
+  url: "https://doi.org/10.1676/07-041.1"
+  tags: [birds, quant]
+- type: review
+  year: "In review"
+  title: "Decreased abundance and community shifts of breeding birds in the coastal spruce-fir forests of Acadia National Park over 66 years"
+  authors: "Audier, G.†, K. Lima†, R. Davis, and C. P. Nadeau"
+  venue: "Avian Conservation and Ecology"
+  url: ""
+  tags: [birds, climate]
+- type: review
+  year: "In review"
+  title: "Shallow compost amendments could improve mountain summit restorations by improving plant growth"
+  authors: "Andrus, I.†, J. Kafas†, A. Wilson†, E. Lanning, J. S. Wheeler, and C. P. Nadeau"
+  venue: "Ecological Restoration"
+  url: ""
+  tags: [restoration]
+- type: review
+  year: "In review"
+  title: "Seabirds are migrating later each year, among other changes, in the Gulf of Maine, USA"
+  authors: "Lima, K. A.†, S. Benz, C. P. Nadeau, and N. A. Fisichelli"
+  venue: "In revision for resubmission"
+  url: ""
+  tags: [birds, climate]
+- type: review
+  year: "In review"
+  title: "Science from the people, for the parks: how visitors are helping managers protect two national parks in Maine, USA"
+  authors: "Lima, K. A.†, A. J. Miller-Rushing, C. P. Nadeau, K. A. Walker, J. S. Wheeler, and N. A. Fisichelli"
+  venue: "Park Stewardship Forum"
+  url: ""
+  tags: []
+- type: other
+  year: "2026"
+  title: "Great Meadow StoryMap"
+  authors: "Portales, N.†, and C. P. Nadeau"
+  venue: "ArcGIS StoryMap with data dashboards, Schoodic Institute"
+  url: "https://storymaps.arcgis.com/stories/842df6be0b644b33a6d42e8b895004c9"
+  tags: [restoration]
+- type: other
+  year: "2026"
+  title: "Great Meadow restoration: the data behind the decision"
+  authors: "Portales, N.†, and C. P. Nadeau"
+  venue: "Schoodic Institute"
+  url: "https://schoodicinstitute.org/great-meadow-restoration/"
+  tags: [restoration]
+- type: other
+  year: "2025"
+  title: "Expanding the management toolbox for invasive species in Acadia"
+  authors: "Wilson, A., and C. P. Nadeau"
+  venue: "Organization of Biological Field Stations Newsletter; republished by Schoodic Institute"
+  url: "https://schoodicinstitute.org/expanding-the-management-toolbox-for-glossy-buckthorn-in-acadia/"
+  tags: [restoration]
+- type: other
+  year: "2024"
+  title: "Acadia’s summit restoration project is looking up (and west)"
+  authors: "Nadeau, C. P."
+  venue: "Schoodic Institute"
+  url: "https://schoodicinstitute.org/acadias-summit-restoration-project-is-looking-up-and-west/"
+  tags: [restoration, climate]
+- type: other
+  year: "2024"
+  title: "Filling a global knowledge gap while restoring Acadia’s landscapes"
+  authors: "Nadeau, C. P."
+  venue: "Schoodic Institute; republished in Friends of Acadia Journal"
+  url: "https://friendsofacadia.org/restoration-projects/filling-a-global-knowledge-gap-while-restoring-acadias-landscapes/"
+  tags: [restoration, climate]
+- type: other
+  year: "2023"
+  title: "Restoring native plants in the Great Meadow wetland"
+  authors: "Nadeau, C. P."
+  venue: "National Park Service"
+  url: "https://www.nps.gov/articles/restoring-native-plants-in-the-great-meadow-wetland.htm"
+  tags: [restoration]
+- type: other
+  year: "2017"
+  title: "How should biologists measure climate change?"
+  authors: "Nadeau, C. P."
+  venue: "Methods in Ecology and Evolution Blog"
+  url: "https://methodsblog.com/2017/01/13/measuring-climate-change/"
+  tags: [climate, quant]
+- type: other
+  year: "2012"
+  title: "Evaluating population trends, breeding density, and the effect of habitat management and environmental variables for 14 species of secretive marsh birds in North America"
+  authors: "Satistiban, L., C. P. Nadeau, and C. J. Conway"
+  venue: "USGS Arizona Cooperative Fish and Wildlife Research Unit, Wildlife Research Report 2012-01"
+  url: ""
+  tags: [birds, quant]
+- type: other
+  year: "2008"
+  title: "Relative abundance, detection probability, and power to detect population trends of marsh birds in North America"
+  authors: "Conway, C. J., C. P. Nadeau, R. J. Steidl, and A. Litt"
+  venue: "USGS Arizona Cooperative Fish and Wildlife Research Unit, Wildlife Research Report 2008-02"
+  url: ""
+  tags: [birds, quant]

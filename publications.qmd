@@ -1,0 +1,22 @@
+---
+pagetitle: "Publications"
+description: "Publications by Chris Nadeau: climate change adaptation, restoration, birds, and quantitative methods."
+---
+
+<!--
+  PUBLICATIONS
+  The intro below is plain text you can edit.
+  The list itself comes from data/publications.yml: add, remove, or fix papers there.
+  Each paper has type (peer, review, or other) and tags (climate, restoration, birds, quant),
+  which drive the filter buttons.
+-->
+
+::: {.page-body .list-page}
+# Publications
+
+::: intro
+From marsh bird surveys to climate adaptation experiments. † marks a mentee or supervised staff member. Full list also on Google Scholar [URL] and [ORCID](https://orcid.org/0000-0002-3568-0793).
+:::
+
+{{< publication-list >}}
+:::

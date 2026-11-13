@@ -1,0 +1,73 @@
+---
+pagetitle: "Science in Action"
+description: "Climate change adaptation, restoration, and quantitative ecology at Acadia National Park."
+---
+
+```{=html}
+<!--
+  HOMEPAGE
+  Edit the text below freely. The ::: lines mark page sections; leave them in place.
+  Photos: ![description of the photo](/images/FILE.jpg). The credit is added
+  automatically from photo_credits.csv.
+-->
+```
+
+:::: hero
+![Sunset over a lake seen from a granite summit in fall](/images/IMG_4884.jpg){style="object-position: center 60%"}
+
+::: hero-text
+[Climate Change Adaptation · Restoration · Quantitative Ecology]{.hero-label}
+
+# Science in Action
+
+Working together to track change, test solutions, and learn from every conservation action.
+:::
+::::
+
+::: why
+Ecosystems are changing faster than we can study them. We can't afford to wait for perfect answers.
+:::
+
+:::: {.research .wrap}
+::: section-head
+## Research {#research}
+:::
+
+<!-- The three research tiles live in research/_tiles.qmd (shared with the Research page) -->
+
+{{< include research/_tiles.qmd >}}
+::::
+
+::::::: band
+## How we work
+
+:::::: cols
+::: col
+### Science together
+
+Questions are shaped with park managers, partners, and community scientists who put the answers to work.
+:::
+
+::: col
+### Rigorous numbers
+
+Models and statistics that turn messy field data into answers managers can trust.
+:::
+::::::
+:::::::
+
+::::: {.news .wrap}
+:::: section-head
+::: {}
+[News]{.eyebrow}
+
+## Updates & in the news
+:::
+
+[All News →](/news.qmd)
+::::
+
+<!-- These cards come from data/news.yml: the items with "featured: 1", "featured: 2", "featured: 3" -->
+
+{{< news-cards n=3 >}}
+:::::

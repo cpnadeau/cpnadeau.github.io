@@ -93,7 +93,7 @@
   authors: "Conway, C. J., C. P. Nadeau, and M. Conway†"
   venue: "Wetlands 40: 2055–2059"
   url: "https://doi.org/10.1007/s13157-020-01367-5"
-  tags: [birds, quant]
+  tags: [birds]
 - type: peer
   year: "2020"
   title: "Multi-species occupancy models as robust estimators of community richness"
@@ -122,7 +122,7 @@
   authors: "Nadeau, C. P., M. C. Urban, and J. R. Bridle"
   venue: "Global Change Biology 23: 12–24"
   url: "https://doi.org/10.1111/gcb.13475"
-  tags: [climate, quant]
+  tags: [climate]
 - type: peer
   year: "2017"
   title: "Habitat models to predict wetland bird occupancy influenced by scale, anthropogenic disturbance, and imperfect detection"
@@ -179,7 +179,7 @@
   authors: "Nadeau, C. P., C. J. Conway, L. Piest, and B. Burger"
   venue: "Wetlands 33: 699–706"
   url: "https://doi.org/10.1007/s13157-013-0425-x"
-  tags: [birds, quant]
+  tags: [birds]
 - type: peer
   year: "2012"
   title: "Intraspecific variation in reproductive traits of burrowing owls"
@@ -193,14 +193,14 @@
   authors: "Nadeau, C. P., and C. J. Conway"
   venue: "Wildlife Research 39: 311–320"
   url: "https://doi.org/10.1071/WR11161"
-  tags: [birds, quant]
+  tags: [birds]
 - type: peer
   year: "2010"
   title: "Effects of broadcasting conspecific and heterospecific calls on detection of marsh birds in North America"
   authors: "Conway, C. J., and C. P. Nadeau"
   venue: "Wetlands 30: 358–368"
   url: "https://doi.org/10.1007/s13157-010-0030-1"
-  tags: [birds, quant]
+  tags: [birds]
 - type: peer
   year: "2010"
   title: "Fire helps restore natural disturbance regime to benefit rare and endangered marsh birds endemic to Colorado River"
@@ -214,7 +214,7 @@
   authors: "Nadeau, C. P., C. J. Conway, B. S. Smith†, and T. E. Lewis"
   venue: "Wilson Journal of Ornithology 120: 513–518"
   url: "https://doi.org/10.1676/07-041.1"
-  tags: [birds, quant]
+  tags: [birds]
 - type: review
   year: "In review"
   title: "Decreased abundance and community shifts of breeding birds in the coastal spruce-fir forests of Acadia National Park over 66 years"
@@ -298,11 +298,11 @@
   authors: "Satistiban, L., C. P. Nadeau, and C. J. Conway"
   venue: "USGS Arizona Cooperative Fish and Wildlife Research Unit, Wildlife Research Report 2012-01"
   url: ""
-  tags: [birds, quant]
+  tags: [birds]
 - type: other
   year: "2008"
   title: "Relative abundance, detection probability, and power to detect population trends of marsh birds in North America"
   authors: "Conway, C. J., C. P. Nadeau, R. J. Steidl, and A. Litt"
   venue: "USGS Arizona Cooperative Fish and Wildlife Research Unit, Wildlife Research Report 2008-02"
   url: ""
-  tags: [birds, quant]
+  tags: [birds]

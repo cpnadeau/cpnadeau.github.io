@@ -1,0 +1,8 @@
+<!--
+  The team sentence above the research tiles. Shown on the homepage and on the Research page.
+  The links go to the Team and Partners sections of the About page.
+-->
+
+::: team-line
+The research and ideas here are the work of a great [team](/about.qmd#team) and many [collaborators](/about.qmd#partners).
+:::

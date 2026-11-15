@@ -886,6 +886,59 @@ footer.footer .nav-footer {
   .button { padding: 0 22px; }
 }
 
+// ---------- Team line (above the research tiles) ----------
+.team-line {
+  margin: 0 0 40px;
+  p { margin: 0; max-width: 760px; }
+  a { font-weight: 600; }
+}
+.section-head + .team-line { margin-top: -24px; }
+
+// ---------- About: team and partners ----------
+#quarto-content {
+  > .team { padding-top: 88px; padding-bottom: 24px; }
+  > .partners { padding-top: 64px; padding-bottom: 88px; }
+}
+.team, .partners {
+  max-width: 1300px;
+  h2 { margin: 0 0 32px; font-size: clamp(2.25rem, 4vw, 2.75rem); }
+}
+.people {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  gap: 24px;
+}
+.person {
+  background: #FFFFFF;
+  border: 1px solid $hairline;
+  padding-bottom: 20px;
+  > p:first-child { margin: 0; }
+  .photo { overflow: hidden; }
+  .photo img { aspect-ratio: 1 / 1; object-fit: cover; }
+  h3 { margin: 18px 20px 4px; font-size: 24px; line-height: 1.2; }
+  p { margin: 0 20px; font-size: 16px; line-height: 1.5; color: $text-1; }
+  h3 + p { margin-bottom: 8px; font-size: 14px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: $coral; }
+}
+.crew {
+  margin-top: 24px;
+  padding: 20px 24px;
+  background: $band;
+  border-left: 4px solid $slate;
+  p { margin: 0; font-size: 17px; line-height: 1.55; color: $text-1; }
+}
+.partners {
+  > p { margin: 0 0 16px; font-size: 19px; line-height: 1.6; color: $text-1; }
+  ul {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+    gap: 0 32px;
+  }
+  li { padding: 12px 0; border-bottom: 1px solid $hairline; font-size: 17px; color: $ink; }
+}
+
 // ---------- Photo credits ----------
 .credits-page { max-width: 1400px; }
 .credits-table {

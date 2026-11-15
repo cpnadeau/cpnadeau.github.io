@@ -8,7 +8,7 @@ pagetitle: "Research"
 
 :::
 
-We track what's changing, test solutions at small scale, then build experiments into management.
+{{< include _team-line.qmd >}}
 
 {{< include _tiles.qmd >}}
 :::

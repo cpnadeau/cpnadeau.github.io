@@ -151,7 +151,9 @@ function M.wrap(img, loading)
   local file = img.src:match("([^/]+)$") or img.src
   local row = M.credits()[file]
   local strip
-  if row then
+  if row and row.credit == "" and row.status == "selected" then
+    strip = "" -- credit left blank on purpose (e.g. team headshots): show none
+  elseif row then
     strip = '<span class="photo-credit">' .. M.credit_html(row) .. "</span>"
   else
     quarto.log.warning("No row in photo_credits.csv for " .. img.src)

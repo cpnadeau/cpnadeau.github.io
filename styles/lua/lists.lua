@@ -144,7 +144,7 @@ return {
   ["photo-credits-table"] = function()
     local rows = {}
     for file, row in pairs(photos.credits()) do
-      if row.status == "selected" then
+      if row.status == "selected" and row.credit ~= "" then
         row._file = file
         rows[#rows + 1] = row
       end

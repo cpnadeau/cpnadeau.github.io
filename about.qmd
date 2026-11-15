@@ -75,6 +75,55 @@ Senior Scientist at Acadia National Park, putting science into action on summits
 :::
 :::
 
+::::: {#team .team .wrap}
+## The team
+
+:::: people
+::: person
+![Amina Wilson smiling in front of spruce trees](/images/Amina-Wilson-Headshot-400x400.jpg)
+
+### Amina Wilson
+
+Research Associate
+:::
+
+::: person
+![Kyle Lima smiling beside a marsh with conifers behind](/images/Kyle-Lima-Headshot-400x400.jpg)
+
+### Kyle Lima
+
+Forest and Wildlife Ecologist
+:::
+
+::: person
+![Jenny Kafas smiling on a rocky shore](/images/Jenny-Kafas-Staff-Photo-400x400.jpg)
+
+### Jenny Kafas
+
+Data Visualization Specialist
+:::
+::::
+
+::: crew
+**Field crew.** Each season, multiple restoration research technicians and interns brave the heat and mosquitoes to collect the data.
+:::
+:::::
+
+::: {#partners .partners .wrap}
+## Partners
+
+Much of my work is done through **Wild Acadia**, a partnership between the National Park Service, Friends of Acadia, and Schoodic Institute.
+
+We also work with:
+
+- College of the Atlantic
+- Earthwatch
+- Maine Coast Heritage Trust
+- Northeast Climate Adaptation Science Center
+- University of Maine
+- US Fish and Wildlife Service
+:::
+
 <!-- MENTORING SECTION: hidden for now (2026-11-13). To bring it back, delete this
      comment's first line and its last line (the one with the arrow), fill in the
      mentoring sentence and the openings, and put a real link on "See Openings".

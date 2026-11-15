@@ -33,7 +33,10 @@ Ecosystems are changing faster than we can study them. We can't afford to wait f
 ## Research {#research}
 :::
 
-<!-- The three research tiles live in research/_tiles.qmd (shared with the Research page) -->
+<!-- The team sentence lives in research/_team-line.qmd and the three research tiles in
+     research/_tiles.qmd (both shared with the Research page) -->
+
+{{< include research/_team-line.qmd >}}
 
 {{< include research/_tiles.qmd >}}
 ::::

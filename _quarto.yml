@@ -61,9 +61,12 @@ format:
     lang: en
     # Filter buttons (Publications, News) and the Research menu highlight
     include-after-body: styles/filters.html
-    # Google Search Console ownership check (keep it, or Google stops showing the site's data)
+    # Line 1: Google Search Console ownership check (keep it, or Google stops showing the site's data)
+    # Line 2: GoatCounter visitor counts (no cookies; dashboard at https://cpnadeau.goatcounter.com)
     include-in-header:
-      text: '<meta name="google-site-verification" content="mqjM2YDwqE8_N7JUd4ypHAAg_Rs0Ggv6HcolazH4p-o" />'
+      text: |
+        <meta name="google-site-verification" content="mqjM2YDwqE8_N7JUd4ypHAAg_Rs0Ggv6HcolazH4p-o" />
+        <script data-goatcounter="https://cpnadeau.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 
 # layout.lua: side-by-side project blocks on the research pages
 # photo-credits.lua: adds the credit from photo_credits.csv to every photo

@@ -39,8 +39,7 @@ website:
   page-footer:
     left: "Chris Nadeau, PhD"
     right:
-      - text: "Email"
-        href: "mailto:cnadeau@schoodicinstitute.org"
+      - text: "cnadeau@schoodicinstitute.org"
       - text: "Google Scholar"
         href: "https://scholar.google.com/citations?user=ZDM7wgYAAAAJ&hl=en"
       - text: "ORCID"

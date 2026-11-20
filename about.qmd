@@ -7,8 +7,7 @@ description: "About Chris Nadeau, restoration and quantitative ecologist at Acad
   ABOUT
   Edit the text freely. The ::: lines mark page sections; leave them in place.
   Buttons are links followed by {.button} (filled) or {.button .outline} (outlined).
-  A button whose address isn't known yet is written as [Email [address to confirm]]{.button .todo}
-  When you have the address, change it to [Email](mailto:you@example.org){.button}
+  A button whose address isn't known yet is written as [Label [URL]]{.button .todo}
 -->
 
 ::: about-intro
@@ -23,7 +22,7 @@ I'm a restoration and quantitative ecologist and a Senior Scientist at Schoodic 
 
 My path here has been a winding one, and I'm grateful for every turn. It gave me a toolkit that spans field ecology, statistics, and telling the story of science to anyone who will listen.
 
-[View CV](/cv.qmd){.button} [Get in touch](#contact){.button .outline}
+[View CV](/cv.qmd){.button}
 :::
 :::
 
@@ -88,7 +87,7 @@ Research Associate
 :::
 
 ::: person
-![Kyle Lima smiling beside a marsh with conifers behind](/images/Kyle-Lima-Headshot-400x400.jpg)
+![Kyle Lima smiling in front of a stone wall with a National Park Service sign](/images/Kyle-Lima-Headshot-2026.jpg){style="object-position: center 30%"}
 
 ### Kyle Lima
 
@@ -102,11 +101,17 @@ Forest and Wildlife Ecologist
 
 Data Visualization Specialist
 :::
-::::
 
-::: crew
-**Field crew.** Each season, multiple restoration research technicians and interns brave the heat and mosquitoes to collect the data.
+::: person
+![Field crew in rain gear smiling together on a foggy granite summit](/images/Field-Crew-Summit.jpg)
+
+### Field crew
+
+Technicians and interns
+
+Each season, multiple restoration research technicians and interns brave the heat and mosquitoes to collect the data.
 :::
+::::
 :::::
 
 ::: {#partners .partners .wrap}
@@ -117,7 +122,7 @@ Much of my work is done through **Wild Acadia**, a partnership between the Natio
 We also work with:
 
 - College of the Atlantic
-- Earthwatch
+- Earthwatch Institute
 - Maine Coast Heritage Trust
 - Northeast Climate Adaptation Science Center
 - University of Maine
@@ -148,15 +153,3 @@ Positions are posted on the Schoodic Institute jobs page. If you're interested i
 :::
 :::
 -->
-
-::: {#contact .band .contact}
-::: contact-text
-## Get in touch
-
-For collaborations, speaking invitations, or media requests.
-:::
-
-::: buttons
-[Email](mailto:cnadeau@schoodicinstitute.org){.button} [ORCID](https://orcid.org/0000-0002-3568-0793){.button .outline} [Google Scholar](https://scholar.google.com/citations?user=ZDM7wgYAAAAJ&hl=en){.button .outline}
-:::
-:::
